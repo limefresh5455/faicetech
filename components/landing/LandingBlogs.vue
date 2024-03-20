@@ -3,10 +3,10 @@ definePageMeta({
   layout: "landing",
 });
 
-const TeamImg1 = "/assets/img/blog2.png";
-const TeamImg2 = "/assets/img/blog3.png";
-const TeamImg3 = "/assets/img/blog4.png";
-const TeamImg4 = "/assets/img/blog1.png";
+const TeamImg1 = "https://raw.githubusercontent.com/limefresh5455/faicetech/main/assets/img/blog2.png";
+const TeamImg2 = "https://raw.githubusercontent.com/limefresh5455/faicetech/main/assets/img/blog3.png";
+const TeamImg3 = "https://raw.githubusercontent.com/limefresh5455/faicetech/main/assets/img/blog4.png";
+const TeamImg4 = "https://raw.githubusercontent.com/limefresh5455/faicetech/main/assets/img/blog1.png";
 
 const blogsTeam = [
   {
