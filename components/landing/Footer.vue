@@ -77,7 +77,7 @@
     <div class="w-full">    
         <h6 class="mb-5">Head Office</h6>
        <p class="text-footer text-left my-5">
-        292 Hale Road, Hale Barns, Altrincham, WA15 8SP, 
+        292 Hale Road, Hale Barns, Altrincham, WA15 8SP, <br>
         United Kingdom
        </p>       
     </div>
@@ -95,7 +95,7 @@
             height="16"
           />
           </span>
-          <p class="text-footer ml-3">+44 (0) 20 3011 4000</p>
+          <p class="text-footer ml-3"> +44 (0) 20 3011 4000</p>
         </span>
      
         <span class="flex items-center">
@@ -109,7 +109,7 @@
             height="16"
           />
           </span>
-          <p class="text-footer ml-3">+1 (213) 205-2200</p>
+          <p class="text-footer ml-3"> +1 (213) 205-2200</p>
         </span>
         <p class="mt-5 text-left">
         <LandingLink
