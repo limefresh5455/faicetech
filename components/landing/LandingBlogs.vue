@@ -3,10 +3,10 @@ definePageMeta({
   layout: "landing",
 });
 
-const TeamImg1 = "~/assets/img/blog2.png";
-const TeamImg2 = "~/assets/img/blog3.png";
-const TeamImg3 = "~/assets/img/blog4.png";
-const TeamImg4 = "~/assets/img/blog1.png";
+const TeamImg1 = "/assets/img/blog2.png";
+const TeamImg2 = "/assets/img/blog3.png";
+const TeamImg3 = "/assets/img/blog4.png";
+const TeamImg4 = "/assets/img/blog1.png";
 
 const blogsTeam = [
   {
@@ -27,8 +27,8 @@ const blogsTeam = [
     readmore:"READ MORE",
     avatar: {
       src: TeamImg2,
-      width: 580,
-      height: 580,
+      width: 315,
+      height: 231,
     },
   },
   {
@@ -38,8 +38,8 @@ const blogsTeam = [
     readmore:"READ MORE",
     avatar: {
       src: TeamImg3,
-      width: 580,
-      height: 580,
+      width: 315,
+      height: 231,
     },
   },
   {
@@ -49,8 +49,8 @@ const blogsTeam = [
     readmore:"READ MORE",
     avatar: {
       src: TeamImg4,
-      width: 580,
-      height: 580,
+      width: 315,
+      height: 231,
     },
   },
 ];
