@@ -128,7 +128,7 @@
   
     <p class="text-left text-footer mt-1 flex justify-between">
       <span class="flex">
-       <small>Find Us On:</small>
+       <small class="text-sm">Find Us On:</small>
       <a
         href="#"
         target="_blank"

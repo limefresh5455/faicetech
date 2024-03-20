@@ -3,10 +3,10 @@ definePageMeta({
   layout: "landing",
 });
 
-const TeamImg1 = "https://raw.githubusercontent.com/limefresh5455/faicetech/main/assets/img/blog2.png";
-const TeamImg2 = "https://raw.githubusercontent.com/limefresh5455/faicetech/main/assets/img/blog3.png";
-const TeamImg3 = "https://raw.githubusercontent.com/limefresh5455/faicetech/main/assets/img/blog4.png";
-const TeamImg4 = "https://raw.githubusercontent.com/limefresh5455/faicetech/main/assets/img/blog1.png";
+import TeamImg1 from './assets/img/blog2.png';
+import TeamImg2 from './assets/img/blog3.png';
+import TeamImg3 from './assets/img/blog4.png';
+import TeamImg4 from './assets/img/blog1.png';
 
 const blogsTeam = [
   {
@@ -16,7 +16,7 @@ const blogsTeam = [
     readmore:"READ MORE",
     avatar: {
       src: TeamImg1,
-      width: 315,
+      width: 315,     
       height: 231,
     },
   },
@@ -58,8 +58,9 @@ const blogsTeam = [
 
 <template>
    <div class="BlogSection">
+    
   <LandingContainer>
-    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16 mb-16">
+    <div class="flex flex-col gap-3 mx-auto max-w-4xl mb-16">
                     <div class="text-center">
                       <span class="text-small-blue">BLOG</span>
                       <h3 class="mb-7 mt-2">Read our Latest Blog</h3>
@@ -70,14 +71,14 @@ const blogsTeam = [
     </div>
     <div class="grid md:grid-cols-4 gap-5 mx-auto w-11/12">
       <div v-for="item of blogsTeam" class="group">
-        <div class="w-full aspect-square">
+        <div class="">
           <img
             :src="item.avatar.src"
             :width="item.avatar.width"
             :height="item.avatar.height"
             format="avif"
             alt="Team"
-            class="w-full h-full object-cover rounded transition group-hover:-translate-y-1 group-hover:shadow-xl"
+            class="transition group-hover:-translate-y-1 group-hover:shadow-xl w-full"
           />
         </div>
         <div class="blogContWrap">
@@ -96,7 +97,7 @@ const blogsTeam = [
                       rel="noopener"
                       >{{ item.readmore }}                       
                     </LandingLink> 
-                    <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="16" class="relative bottom-1" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1.33334 6.5H14.6667M14.6667 6.5L9.66668 1.5M14.6667 6.5L9.66668 11.5" stroke="#3ECEF6" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                   </span>
@@ -116,7 +117,4 @@ const blogsTeam = [
       </div>
   </LandingContainer>
 </div>
-
-
-
 </template>
