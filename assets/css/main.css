@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Custom Css */
+body{font-family: "Bebas Neue", sans-serif; font-weight: 400; font-style: normal;}
+h1{font-family: "Bebas Neue", sans-serif;font-size: 64px;font-weight: 400;line-height: 64px;letter-spacing: 0em;text-align: left;color:#14181B;}
+h2{font-size: 32px;font-weight: 400;line-height: 38px;letter-spacing: 0em;text-align: center;text-transform: uppercase;}
+h3{font-family: "Bebas Neue", sans-serif;color:#14181B;text-transform:uppercase; font-size:32px;font-weight: 400;line-height: 38.4px;text-align: center;}
+h5{font-family: "Bebas Neue", sans-serif;}
+h6{font-family: "Bebas Neue", sans-serif;font-family: "Open Sans", sans-serif;font-size: 16px;font-weight: 400;}
+.linkblue{color: #3ECEF6;}
+p{font-family: "Open Sans", sans-serif;color:#282C28;font-size: 18px;font-weight: 400;line-height: 29px;letter-spacing: 0px;text-align: center;}
+.font-bebas{font-family: "Bebas Neue", sans-serif; font-weight: 400;}
+.font-opensans{font-family: "Open Sans", sans-serif;}
+.text-footer{color: #E7E8E8;font-weight: 400;}
+.max-w-screen-xl { max-width: 1600px; }
+.themenavbar{border-bottom: solid 1px #3ECDF5;}
+.dotbtn {background: #d9d9d9;width: 15px;height: 15px;display: block;padding: 0;border-radius: 50%;margin-right: 5px;}
+.dotbtn:hover {background: #3ECDF5 !important;}
+.themenavbar li:first-child a:after {background: #3ecdf5;color: #fff;position: absolute;width: 9px;height: 9px;bottom: -5px;content: '';border-radius: 50%;left: 45%;}
+.themenavbar li:first-child a {position: relative;}
+.themenavbar li a:hover:after {background: #3ecdf5;color: #fff;position: absolute;width: 9px;height: 9px;bottom: -4px;content: '';border-radius: 50%;left: 45%;}
+.themenavbar li a:hover {position: relative;}
+.btn-primary-btn{color: #fff; background-color:#3ECDF5;border-radius: 0;}
+.btn-primary-btn:hover{color: #fff; border: solid 2px #3ECDF5; background-color:transparent;border-radius: 0;}
+.btn-white-btn{color: #14181B; background-color:#fff;border-radius: 0;width: 157px;font-weight: 400;font-size: 18px; padding: 10px 9.3px 6px 9.3px;}
+.btn-white-btn:hover{color: #14181B; border: solid 2px #3ECDF5; background-color:#3ECDF5 !important;border-radius: 0;}
+.btn-primary-outline-btn{color: #3ECDF5; border: solid 2px #3ECDF5; background-color:transparent;border-radius: 0;}
+.btn-primary-outline-btn:hover{color: #fff; border: solid 2px #3ECDF5; background:#3ECDF5 !important;border-radius: 0;}
+.bg-theme-black{background-color: #14181B;}
+.text-white-theme{color: #E7E8E8;}
+.text-white-theme:hover{color: #3ECDF5;}
+.text-small-green{font-family: "Open Sans", sans-serif;color:#12D591;margin-bottom: 8px;text-transform: uppercase;font-size: 16px;font-weight: 600;line-height: 26px;letter-spacing: 0.005em;text-align: left;}
+.text-small-blue{font-family: "Open Sans", sans-serif;color:#32A4C4;margin-bottom: 8px;text-transform: uppercase;font-size: 16px;font-weight: 600;line-height: 26px;letter-spacing: 0.005em;text-align: left;}
+.herosection{padding: 80px 16rem 0 0;}
+.herosection p{font-family: "Open Sans", sans-serif;color:#282C28;font-size: 18px;font-weight: 400;line-height: 29px;letter-spacing: 0px;text-align: left;}
+.herosectionWrap {background-size: cover;background-repeat: no-repeat;background-position: top;height: 150vh;}
+.faicealertBg {background-repeat: no-repeat;background-size: cover; }
+.faicealertContent {padding: 40px 100px 55px 40px;text-align: left;color: #E7E8E8;max-width: 409px; }
+.faicealertContent h3{text-align: left; font-size: 24px;font-weight: 400;line-height: 24px;margin-bottom: 16px;letter-spacing: 0.005em;text-transform: uppercase;color: #E7E8E8;}
+.faicealertContent p {text-align: left;color: #E7E8E8;font-size: 16px;font-weight: 400;line-height: 26px;letter-spacing: 0.005em; margin-bottom: 24px;}
+.faicematchBg {background-repeat: no-repeat;background-size: cover; background-position: right; }
+.faicematchContent {padding: 40px 0 55px 120px;text-align: left;color: #E7E8E8;max-width: 409px; }
+.faicematchContent h3{font-size: 24px;font-weight: 400;line-height: 24px;margin-bottom: 16px;letter-spacing: 0.005em;text-transform: uppercase; color: #E7E8E8;}
+.faicematchContent p {text-align: left;color: #E7E8E8;font-size: 16px;font-weight: 400;line-height: 26px;letter-spacing: 0.005em; margin-bottom: 24px;}
+.MidBlackTwoSection{height: 100vh;background-repeat: no-repeat;background-size: cover;}
+.MidBlackRight {padding: 0px;text-align: left;color: #E7E8E8;max-width: 650px; }
+.MidBlackRight h3{font-size: 32px; color:#3ECDF5;font-weight: 400;line-height: 38.4px;margin-bottom: 16px;text-transform: uppercase; text-align: left;}
+.MidBlackRight p {text-align: left;color: #E7E8E8;font-size: 18px;font-weight: 400;line-height: 28.8px;letter-spacing: 0.005em; margin-bottom: 24px;}
+.MidBlackTwoSectionBtm{height: auto;background-repeat: no-repeat;background-size: cover;}
+.MidBlackBottom {padding: 0px;text-align: center;color: #E7E8E8;max-width: 947px; }
+.MidBlackBottom h3{font-size: 32px; color:#3ECDF5;font-weight: 400;line-height: 38.4px;margin-bottom: 16px;text-transform: uppercase;}
+.MidBlackBottom p{text-align: center;color: #E7E8E8;font-size: 18px;font-weight: 400;line-height: 28.8px;letter-spacing: 0.005em; margin-bottom: 24px;}
+.MidBlackTwoSectionBtm .benfitbox{width: 32%;flex: 0 0 32%;margin-bottom: 40px;position:relative;background-color: #45525B; border: solid 2px #3ECDF5; padding:48px 30px 30px 30px;}
+.MidBlackTwoSectionBtm .benfitbox h4{font-size: 32px;color:#fff;font-weight: 400;line-height: 38px;letter-spacing: 0em;text-align: left;margin-bottom: 30px;}
+.MidBlackTwoSectionBtm .benfitbox p{text-align: left;color: #E7E8E8;font-size: 18px;font-weight: 400;line-height: 28.8px;letter-spacing: 0.005em; margin-bottom: 24px;}
+.MidBlackTwoSectionBtm .benfitbox .markSign {position: absolute;left: 25px;top: -30px;}
+.MidBlackTwoSectionWrap{background-color: #14171A; padding-bottom: 70px; }
+.GDPR-section {height: 575px;background-size: cover;background-repeat: no-repeat;}
+.GDPR-section .MidBlackLeft{max-width: 625;padding:0 0 0 70px ;}
+.GDPR-section .MidBlackLeft h3{font-size: 32px;font-weight: 400;line-height: 32px;letter-spacing: 0em;text-align: left;color: #fff; font-weight: 400;text-transform: uppercase;}
+.MidBlackTtestimonialWrap{background-color: #13171A;}
+.MidBlackTtestimonial {background-color: #13171A;height: 500px;text-align: center;display: flex; align-items: center;justify-content: center;width: 800px;margin: 0 auto;}
+.MidBlackTtestimonial p{font-family: "Bebas Neue", sans-serif; color: #fff; font-size: 24px;font-weight: 400;line-height: auto;letter-spacing: 0.005em;text-align: left;}
+.MidBlackTtestimonial .profileBox{color: #fff; text-align: left;}
+.MidBlackTtestimonial .profileBox h5{font-size: 24px;font-weight: 400;line-height: 30px;letter-spacing: 0px;text-align: left; color: #3ECDF5;}
+.MidBlackTtestimonial .clienProfile{font-size: 14px;font-weight: 400;line-height: 20px;letter-spacing: 0.005em;text-align: left;}
+.MapSectionWrap{background-color: #CCDFE6; padding: 130px 70px 80px 70px; }
+.MapSectionWrap h3{font-size: 40px;font-weight: 400;line-height: 40px;letter-spacing: 0em;text-align: left;color: #14181B;}
+.BlogSection{background-color: #fff; padding: 120px 0;}
+.blogContWrap h5{font-size: 24px;font-weight: 400;line-height: 29px;text-align: left; margin-bottom: 32px; color: #fff; text-transform: uppercase;}
+.blogContWrap p{font-size: 16px;font-weight: 400;line-height: 25.6px;letter-spacing: 0.005em;text-align: left; margin-bottom: 64px; color: #fff; }
+.blogContWrap a{padding: 0 10px !important;}
+.blogContWrap {position: relative;background: #14181B;padding-bottom: 30px; min-height: 350px;display: flex;flex-direction: column;justify-content: space-between;}
+.blogContMask {background-repeat: no-repeat;background-size: cover;background-position: top;z-index: 0;position: absolute;width: 100%;height: 100%;top: -63px;}
+.ClientlogoSection{background-color: #E9F1F4; padding: 84px 0;}
+.clientlogos span {padding: 10px 0;text-align: center;background: #fff;display: flex;align-items: center;justify-content: center;box-shadow: 0px 7px 20px 0px #00000012;border-radius: 10px;}
+.footersection {padding: 84px 0;background-size: cover;background-position: center;background-repeat: no-repeat;}
+.footersection h6{color: #32A4C4; font-family: "Open Sans", sans-serif; font-weight: bold;}
+.footersection ul li{font-family: "Open Sans", sans-serif;color:#fff;font-size: 16px;line-height: 22px;letter-spacing: 0px;text-align: left; padding-bottom: 20px;}
+.footerinfo {border-top: solid 1px #5A5D5F;padding-top: 20px;}
