@@ -3,10 +3,10 @@ definePageMeta({
   layout: "landing",
 });
 
-const TeamImg1 = "/_nuxt/assets/img/blog2.png";
-const TeamImg2 = "/_nuxt/assets/img/blog3.png";
-const TeamImg3 = "/_nuxt/assets/img/blog4.png";
-const TeamImg4 = "/_nuxt/assets/img/blog1.png";
+const TeamImg1 = "~/assets/img/blog2.png";
+const TeamImg2 = "~/assets/img/blog3.png";
+const TeamImg3 = "~/assets/img/blog4.png";
+const TeamImg4 = "~/assets/img/blog1.png";
 
 const blogsTeam = [
   {

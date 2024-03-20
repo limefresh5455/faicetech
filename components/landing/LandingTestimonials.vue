@@ -52,19 +52,19 @@ export default defineComponent({
           title: 'Freelance Designer',
           name: 'Mila mcscuba',
           description: `In hac habitasse platea dictumst. Curabitur condimentum porta lacus, eget facilisis enim vu/putate id. Vivamus et mi et urna congue ullamcorper at ac nis/. Praesent ac u/lamcorper ipsum. Donec tempor tempor augue, at facilisis neque suscipit ut. Vivamus euismod, nunc ac viverra gravida, tortor risus sagittis nisl, at egestas metus diam a magna.`,
-          image: '/_nuxt/assets/img/mila.png'
+          image: '~/assets/img/img/mila.png'
         },
         {
           title: 'Freelance Developer',
           name: 'Olivia John',
           description: `In hac habitasse platea dictumst. Curabitur condimentum porta lacus, eget facilisis enim vu/putate id. Vivamus et mi et urna congue ullamcorper at ac nis/. Praesent ac u/lamcorper ipsum. Donec tempor tempor augue, at facilisis neque suscipit ut. Vivamus euismod, nunc ac viverra gravida, tortor risus sagittis nisl, at egestas metus diam a magna.`,
-          image: '/_nuxt/assets/img/mila.png' 
+          image: '~/assets/img/img/mila.png' 
         },
         { 
           title: 'Business Analyst',
           name: 'Amelia',
           description: `In hac habitasse platea dictumst. Curabitur condimentum porta lacus, eget facilisis enim vu/putate id. Vivamus et mi et urna congue ullamcorper at ac nis/. Praesent ac u/lamcorper ipsum. Donec tempor tempor augue, at facilisis neque suscipit ut. Vivamus euismod, nunc ac viverra gravida, tortor risus sagittis nisl, at egestas metus diam a magna.`,
-          image: '/_nuxt/assets/img/mila.png' 
+          image: '~/assets/img/img/mila.png' 
         },
       ],
     }
