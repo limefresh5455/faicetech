@@ -8,5 +8,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["nuxt-icon"],
+  modules: [
+    'nuxt-icon',
+    ['@storyblok/nuxt', { accessToken: process.env.STORYBLOK_API_TOKEN }],
+  ],
+  
 });

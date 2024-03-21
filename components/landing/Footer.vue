@@ -6,7 +6,7 @@
             <img
             class=""
             src="~/assets/img/Faice-Icon_Blue _footer.png"
-            alt=""
+            alt="faicetech"
             loading="eager"
             format="avif"
             width="84"
@@ -18,7 +18,7 @@
             <img
             class=""
             src="~/assets/img/axis.png"
-            alt=""
+            alt="axis"
             loading="eager"
             format="avif"
             width="122"
@@ -84,41 +84,44 @@
     <div class="w-full">    
         <h6 class="mb-5">Request a demo</h6>
        <p class="text-footer text-left my-5">
-        <span class="flex items-center">
-          <span> <img
+        <span class="flex items-center justify-end flex-row-reverse">
+          <p class="text-footer ml-3"> +44 (0) 20 3011 4000 </p>
+          <span>
+            <img
             class=""
             src="~/assets/img/USA-flag.png"
-            alt=""
+            alt="+44 (0) 20 3011 4000"
             loading="eager"
             format="avif"
             width="21"
-            height="16"
-          />
+            height="15"
+            />
           </span>
-          <p class="text-footer ml-3"> +44 (0) 20 3011 4000</p>
+          
         </span>
      
         <span class="flex items-center">
-          <span> <img
+          <span>
+            <img
             class=""
             src="~/assets/img/UK-flag.png"
-            alt=""
+            alt="+1 (213) 205-2200"
             loading="eager"
             format="avif"
             width="21"
-            height="16"
-          />
+            height="15"
+            />
           </span>
           <p class="text-footer ml-3"> +1 (213) 205-2200</p>
         </span>
+
         <p class="mt-5 text-left">
-        <LandingLink
-          href="mailto:info@faicetech.com"
-          class="ps-0 py-0 bg-transparent hover:bg-transparent"
-          target="_blank"
-          rel="noopener"
-          >info@faicetech.com</LandingLink
-        >       
+          <LandingLink
+            href="mailto:info@faicetech.com"
+            class="ps-0 py-0 bg-transparent hover:bg-transparent"
+            target="_blank"
+            rel="noopener"
+            >info@faicetech.com</LandingLink>       
         </p>
        </p>       
     </div>   

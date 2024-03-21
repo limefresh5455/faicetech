@@ -1,6 +1,7 @@
 <script setup>
 definePageMeta({
   layout: "landing",
+  title: 'About Us',
 });
 </script>
 <template>
