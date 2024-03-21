@@ -83,42 +83,28 @@
     </div>
     <div class="w-full">    
         <h6 class="mb-5">Request a demo</h6>
-        <p class="text-footer text-left my-5">
-            <span class="flex items-center justify-end flex-row-reverse">
-                <p class="text-footer ml-3"> +44 (0) 20 3011 4000 </p>
-                <span>
-                  <img
-                  class=""
-                  src="~/assets/img/USA-flag.png"
-                  alt="+44 (0) 20 3011 4000"
-                  loading="eager"
-                  format="avif"
-                  width="21"
-                  height="15"
-                  />
-                </span>              
-            </span>
+        <p class="text-footer text-left my-5">           
      
             <span class="flex items-center">
                 <span>
                   <img
                   class=""
                   src="~/assets/img/UK-flag.png"
-                  alt="+1 (213) 205-2200"
+                  alt="+44 (0) 20 3011 4000"
                   loading="eager"
                   format="avif"
                   width="21"
                   height="15"
                   />
                 </span>
-                <p class="text-footer ml-3"> +1 (213) 205-2200</p>
+                <p class="text-footer ml-3"> +44 (0) 20 3011 4000</p>
             </span>
 
             <span class="flex items-center">
                 <span>
                   <img
                   class=""
-                  src="~/assets/img/UK-flag.png"
+                  src="~/assets/img/USA-flag.png"
                   alt="+1 (213) 205-2200"
                   loading="eager"
                   format="avif"
