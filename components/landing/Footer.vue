@@ -97,7 +97,7 @@
                   height="15"
                   />
                 </span>
-                <p class="text-footer ml-3"> +44 (0) 20 3011 4000</p>
+                <p class="text-footer ml-3"> +44 020 3011 4000</p>
             </span>
 
             <span class="flex items-center">
