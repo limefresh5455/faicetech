@@ -85,7 +85,7 @@
         <h6 class="mb-5">Request a demo</h6>
         <div class="text-footer text-left my-5">           
      
-            <div class="flex items-center">
+            <div class="flex items-center hidden">
                 <span>
                   <img
                   class=""
